@@ -1,0 +1,99 @@
+/*
+Theme Name: GYFF
+Author: Jan Hindemit
+Author URI: https://janhindemit.de
+Version: 1.0
+*/
+
+video::-webkit-media-controls-enclosure {
+  display: none !important;
+}
+
+h1,
+h2,
+h3 {
+  font-family: Commissioner !important;
+  letter-spacing: -0.05em;
+  line-height: 140% !important;
+}
+
+p,
+a,
+button,
+span {
+  font-family: LeagueSparta !important;
+  letter-spacing: -0.05em;
+}
+
+@font-face {
+  font-family: Commissioner;
+  src: url(../Assests/font/Commissioner.ttf);
+}
+
+@font-face {
+  font-family: LeagueSparta;
+  src: url(../Assests/font/LeagueSparta.ttf);
+}
+
+.wp-block-group {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 100px;
+  gap: 20px;
+}
+
+.wp-block-group h1,
+.wp-block-group h2
+{
+  font-family: "Commissioner";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px !important;
+  line-height: 37px;
+  color: #dddddd;
+}
+
+.wp-block-group h3 {
+  font-family: "Commissioner";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px !important;
+  line-height: 37px;
+  color: #dddddd;
+
+}
+
+.wp-block-group p,
+.wp-block-group li {
+  font-family: "League Spartan";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 140%;
+
+  opacity: 0.8;
+  color: #dddddd;
+}
+
+.wp-block-image {
+  width: 100%;
+}
+
+.wp-block-image img {
+  background: linear-gradient(92.36deg, #298692 0.86%, #298692 0.87%, #5dbca3 100%);
+  box-shadow: -30px 30px 60px rgba(10, 10, 11, 0.2), 30px -30px 60px rgba(10, 10, 11, 0.2),
+    -30px -30px 60px rgba(29, 30, 32, 0.9), 30px 30px 75px rgba(10, 10, 11, 0.9),
+    inset 1px 1px 2px rgba(29, 30, 32, 0.3), inset -1px -1px 2px rgba(10, 10, 11, 0.5);
+  border-radius: 10px;
+
+  width: 100%;
+  max-height: 400px;
+  object-fit: cover;
+}
+
+.imgShadow {
+  box-shadow: -30px 30px 60px rgba(10, 10, 11, 0.2), 30px -30px 60px rgba(10, 10, 11, 0.2),
+    -30px -30px 60px rgba(29, 30, 32, 0.9), 30px 30px 75px rgba(10, 10, 11, 0.9),
+    inset 1px 1px 2px rgba(29, 30, 32, 0.3), inset -1px -1px 2px rgba(10, 10, 11, 0.5);
+}

@@ -1,0 +1,157 @@
+/*
+Theme Name: GYFF
+Author: GYFF
+Version: 1.0
+*/
+
+video::-webkit-media-controls-enclosure {
+  display: none !important;
+}
+
+video {
+  filter: none !important;
+}
+
+h1,
+h2,
+h3 {
+  font-family: Commissioner !important;
+  letter-spacing: -0.05em;
+  line-height: 140% !important;
+}
+
+p,
+a,
+button,
+span {
+  font-family: LeagueSparta !important;
+  letter-spacing: -0.05em;
+}
+
+@font-face {
+  font-family: Commissioner;
+  src: url(./Assests/font/Commissioner.ttf);
+}
+
+@font-face {
+  font-family: LeagueSparta;
+  src: url(./Assests/font/LeagueSparta.ttf);
+}
+
+body {
+  font-family: sans-serif;
+}
+
+.formShadow {
+  box-shadow: -15px 15px 30px rgba(8, 8, 8, 0.2), 15px -15px 30px rgba(8, 8, 8, 0.2),
+    -15px -15px 30px rgba(30, 32, 34, 0.9), 15px 15px 38px rgba(8, 8, 8, 0.9),
+    inset 1px 1px 2px rgba(30, 32, 34, 0.3), inset -1px -1px 2px rgba(8, 8, 8, 0.5);
+}
+
+.profilPhotoShadow {
+  border-radius: 999px;
+  box-shadow: -15px 15px 30px rgba(8, 8, 8, 0.2), 15px -15px 30px rgba(8, 8, 8, 0.2),
+    -15px -15px 30px rgba(30, 32, 34, 0.9), 15px 15px 38px rgba(8, 8, 8, 0.9),
+    inset 1px 1px 2px rgba(30, 32, 34, 0.3), inset -1px -1px 2px rgba(8, 8, 8, 0.5);
+}
+
+.swiper-pagination-bullet {
+  font-size: 16px !important;
+  font-weight: 500 !important;
+  border: 2px solid #26292b !important;
+  border-radius: 10px !important;
+  height: auto !important;
+  padding: 11px 24px !important;
+
+  --swiper-pagination-bullet-size: 8px;
+  --swiper-pagination-bullet-width: min-content;
+  --swiper-pagination-bullet-height: 8px;
+  --swiper-pagination-bullet-inactive-color: #303336;
+  --swiper-pagination-bullet-inactive-opacity: 0.2;
+  --swiper-pagination-bullet-opacity: 0.5;
+  --swiper-pagination-bullet-horizontal-gap: 4px;
+  --swiper-pagination-bullet-vertical-gap: 6px;
+}
+
+.swiper-pagination {
+  margin: 0 auto;
+  position: unset !important;
+}
+
+.swiper-pagination-bullet-active {
+  color: #dddd !important;
+  opacity: 1 !important;
+
+  background: linear-gradient(92.36deg, #298692 0.86%, #298692 0.87%, #5dbca3 100%) !important;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+  --swiper-navigation-size: 20px;
+  --swiper-navigation-top-offset: 50%;
+  --swiper-navigation-sides-offset: 10px;
+  --swiper-navigation-color: #131415;
+  background-color: #dddddd6b;
+  padding: 20px !important;
+  border-radius: 10px;
+}
+
+@media only screen and (max-width: 640px) {
+  .swiper-button-prev,
+  .swiper-button-next {
+    display: none !important;
+  }
+}
+
+.phone {
+  filter: drop-shadow(0px 4px 101px rgba(93, 188, 163, 0.05));
+}
+
+.my-custom-form input,
+.my-custom-form textarea {
+  color: #fff !important;
+  border-color: rgba(92, 187, 163, 0.5) !important;
+  background-color: #161718 !important;
+  border-width: 1px !important;
+  border-radius: 0.25rem !important;
+  padding-top: 0.75rem !important;
+  padding-right: 1rem !important;
+  padding-bottom: 0.75rem !important;
+  padding-left: 1rem !important;
+  font-size: 1rem !important;
+  outline: none !important;
+}
+
+.my-custom-form:focus input {
+  border-color: #0d7f5e !important;
+  box-shadow: 0 0 0 3px rgba(93, 188, 163, 0.1) !important;
+}
+
+.my-custom-form input::placeholder,
+.my-custom-form textarea::placeholder {
+  color: #999 !important; /* Ändern Sie hier die Farbe des Placeholder-Texts */
+}
+
+#wpforms-submit-21 {
+  background-image: linear-gradient(to bottom right, #298692, #5dbca3);
+  width: 100%;
+  border-radius: 0.25rem;
+  padding: 0.75rem;
+  transition-duration: 200ms;
+  color: #fff;
+  font-weight: 500;
+}
+
+.wpforms-confirmation-container-full {
+  background-color: #131415 !important;
+  border: none !important;
+}
+
+.wpforms-confirmation-container-full p {
+  color: #dddddd;
+}
+
+.swiper:hover .swiper-button-prev,
+.swiper:hover .swiper-button-next {
+  opacity: 1 !important;
+}
